@@ -6,6 +6,7 @@ num2 = float (input ( "Enter the 2nd number: "))
 num3 = float (input ( "Enter the 3rd number: "))
 
 # Find and print the biggest number using only if-else statement
+
 # Compare the numbers to find the biggest number
 if num1 >= num2 and num1 >= num3:
     biggest = num1
@@ -13,4 +14,7 @@ if num2 >= num1 and num2 >= num3:
     biggest = num2
 else:
     biggest = num3
+
+# Print the biggest number
+print("The largest number is: ", biggest)
     
