@@ -15,6 +15,11 @@ if num2 >= num1 and num2 >= num3:
 else:
     biggest = num3
 
-# Print the biggest number
-print("The largest number is: ", biggest)
-    
+# Print the biggest number ( make it goood)
+print("\n╔════════════════════════════════╗")
+print("║          YOU ENTERED:          ║")
+print("║════════════════════════════════║")
+print("║        {:.2f}, {:.2f}, {:.2f}        ║".format(num1, num2, num3))
+print("╠════════════════════════════════╣")
+print("║  THE BIGGEST NUMBER IS: {:.2f}   ║".format(biggest))
+print("╚════════════════════════════════╝")
