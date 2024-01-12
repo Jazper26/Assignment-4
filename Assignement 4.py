@@ -1,5 +1,13 @@
 # Ask user to input 3 numbers. Find and print the biggest number using only if-else statement
 
+# Adding a prompt when the input given is invalid
+def get_float_input(prompt):
+    while True:
+        try:
+            return float(input(prompt))
+        except ValueError:
+            print("Invalid input! Please enter a valid number.")
+
 # Ask user to input 3 numbers.
 num1 = float (input ( "Enter the 1st number: "))
 num2 = float (input ( "Enter the 2nd number: "))
