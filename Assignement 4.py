@@ -9,9 +9,9 @@ def get_float_input(prompt):
             print("Invalid input! Please enter a valid number.")
 
 # Ask user to input 3 numbers.
-num1 = float (input ( "Enter the 1st number: "))
-num2 = float (input ( "Enter the 2nd number: "))
-num3 = float (input ( "Enter the 3rd number: "))
+num1 = get_float_input  ( "Enter the 1st number: ")
+num2 = get_float_input  ( "Enter the 2nd number: ")
+num3 = get_float_input  ( "Enter the 3rd number: ")
 
 # Find and print the biggest number using only if-else statement
 
